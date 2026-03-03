@@ -12,8 +12,8 @@ const prompt = (0, prompt_sync_1.default)();
 async function main() {
     await (0, initDbandTables_1.initDb)();
     await (0, initDbandTables_1.initTables)();
+    console.log("Hellowwww, Welcome to Acx Library");
     while (true) {
-        console.log("Hellowwww, Welcome to Acx Library");
         console.log("1. Add User");
         console.log("2. View Users");
         console.log("3. Add Book");
