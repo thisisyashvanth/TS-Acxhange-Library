@@ -1,0 +1,1 @@
+SELECT id FROM borrowings WHERE userId = ? AND bookId = ? AND returnedAt IS NULL;

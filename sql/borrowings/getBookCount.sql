@@ -1,0 +1,1 @@
+SELECT book_count FROM books WHERE id = ? FOR UPDATE

@@ -1,0 +1,1 @@
+UPDATE books SET book_count = book_count - 1 WHERE id = ?

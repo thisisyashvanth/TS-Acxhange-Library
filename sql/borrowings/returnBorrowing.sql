@@ -1,0 +1,1 @@
+ UPDATE borrowings SET returnedAt = CURRENT_TIMESTAMP WHERE id = ?;

@@ -1,0 +1,1 @@
+SELECT * FROM borrowings WHERE userId = ? AND bookId = ? FOR UPDATE;
